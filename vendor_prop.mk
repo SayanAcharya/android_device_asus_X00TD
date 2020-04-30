@@ -216,6 +216,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Sensor
 PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sensor.proximity=true \
+    ro.sensor.pickup=android.sensor.tilt_detector \
     ro.vendor.qti.sdk.sensors.gestures=false \
     ro.vendor.qti.sensors.dev_ori=true \
     ro.vendor.qti.sensors.pmd=true \
