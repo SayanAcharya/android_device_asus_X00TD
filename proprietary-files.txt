@@ -148,7 +148,6 @@ vendor/lib/libarcsoft_hdr.so
 vendor/lib/libarcsoft_hdr_detection.so
 vendor/lib/libarcsoft_night_shot.so
 vendor/lib/libarcsoft_picselfie_algorithm.so
-vendor/lib/libcdsprpc.so
 vendor/lib/libdepthmapwrapper.so
 vendor/lib/libflash_pmic.so
 vendor/lib/libhal_dbg.so
@@ -723,6 +722,15 @@ vendor/lib/libchromatix_ov8856_zsl_video.so
 # Camera firmware
 vendor/firmware/cpp_firmware_v1_12_0.fw
 
+# CDSP - from LA.UM.8.2.r1-06200-sdm660.0
+vendor/bin/cdsprpcd|6fb2700151a6e6dd57a5d9a388cf3a95d3e8262b
+vendor/lib/libcdsprpc.so|51edd5b43581d518d5c53855fbd87d20862c6409
+vendor/lib/libcdsp_default_listener.so|8e526abeff251bcc36a1e412ae479d705e2e397f
+vendor/lib/libsysmon_cdsp_skel.so|9c088c263500259484a3b7c611efd413464b4d34
+vendor/lib64/libcdsprpc.so|35d6590f6ddc0f306f48558ae8e71aa0b57625b7
+vendor/lib64/libcdsp_default_listener.so|886ba3921f81439cb1b4e520ad622e1089291fa7
+vendor/lib64/libsysmon_cdsp_skel.so|40d3511922c744016c419983b18f97952c23fee5
+
 # Charger - from LA.UM.8.2.r1-06200-sdm660.0
 vendor/bin/hvdcp_opti|8473b304aa2300c425e090da6688c1c124305b97
 
@@ -1199,8 +1207,8 @@ vendor/bin/energy-awareness|d30082c491a02582ee281fe7fe9e71eba9708858
 vendor/bin/hw/vendor.qti.hardware.perf@2.0-service|3478f1a1de33d39b239f54e47b85dde6f01578c5
 vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc|cc8658db5e19f8e5e575fb986e7d38147e675f8d
 vendor/etc/perf/commonresourceconfigs.xml|42005b8a9ec8a527d22800e3aaa9215e6d58c8a9
-vendor/etc/perf/perfconfigstore.xml|b1d147be38c5a11f13cab051360226ef15b432c5
-vendor/etc/perf/perfboostsconfig.xml|0fd6a9951f22cfe9f0942629f9d20da433604f14
+vendor/etc/perf/perfconfigstore.xml|16cce4d6a061ffb607d9b3114bdecb286ee6788e
+vendor/etc/perf/perfboostsconfig.xml|cb10dfd6c17844d7d2e68bc26e97873ceb60b0fc
 vendor/etc/perf/targetconfig.xml|376ae331df9d6c30b6208f25d04ae4ea11c0e2ea
 vendor/etc/perf/targetresourceconfigs.xml|ed14a691b5aeba9782f4261d974bd245cadbfa01
 vendor/lib/libperfconfig.so|3fabe6d587329cbb619514cc36896cd97c94a113
@@ -1484,8 +1492,8 @@ vendor/lib64/sensors.ssc.so
 product/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar|b6e036c7f03aa04b87e09e05c31d1e97d0f2cb25
 product/lib/vendor.qti.hardware.sensorscalibrate@1.0.so|bda110fc8102be6f88bd0e364819d15d9c0c3744
 product/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|67620ca191213b83e898ee401807eb8385b0020d
-vendor/etc/calmodule.cfg
-vendor/lib64/libcalmodule_common.so
+vendor/etc/calmodule.cfg|35ca480b8b6d088dad04f424ac59e8b14b55c814
+vendor/lib64/libcalmodule_common.so|5715cb6000a71bd28746272665b916aad9a6d384
 vendor/lib/sensor_calibrate.so|9f81f1bf43b7871555915c9d57bba16d0419af40
 vendor/lib64/sensor_calibrate.so|dacb7a77e1713a756a43c082329e9f42e2c0d40e
 
@@ -1513,6 +1521,11 @@ vendor/lib/libmiracast.so|5fa26485f2e842c986c7f806069c0510f2dab0a4
 vendor/lib/vendor.qti.hardware.sigma_miracast@1.0.so|b0239e01e7d91f2a595930651a875671edcdce64
 vendor/lib64/libmiracast.so|beae10ca8d5eb23e9150c2d891c40d1b023a7fab
 vendor/lib64/vendor.qti.hardware.sigma_miracast@1.0.so|7ca31bd88bffc97e5d8a2b8a1b3706231b73befe
+
+# Ssgtzd - from LA.UM.8.2.r1-06200-sdm660.0
+vendor/bin/ssgtzd|17c2953407b0fbb4d0c6fdc385b9c2a381e03c31
+vendor/lib/libminksocket.so|b8982fdd1c4b8f64271ed34070e6fa8756ec2f2c
+vendor/lib64/libminksocket.so|57dd1ef7283ae755d54479b82d410e7b0d3559f9
 
 # Thermal - from LA.UM.8.2.r1-06200-sdm660.0
 vendor/bin/thermal-engine|fc23647cf4ccf8f056477ecbb29169c35627b95a
