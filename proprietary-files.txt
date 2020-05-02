@@ -907,6 +907,7 @@ vendor/lib64/libhdcp1prov.so|e86aec34a2e156e12b8657c586d83cbddff96c00
 vendor/lib64/libhdcp2p2prov.so|2da6e3bb38725480cf916c12e6d65d5601e2578c
 
 # DRM - from Nokia ddv_sprout(m690-user 10 QKQ1.191014.001 00WW_2_250 release-keys)
+product/priv-app/seccamservice/seccamservice.apk|6bf6a5f5110f4a3552b198a626171750425d73f3
 product/lib/libGPQTEEC_system.qti.so|efa7c9fd159661e244b3a28cb4002502a9ec3131
 product/lib/libGPTEE_system.qti.so|a4f5937a9474350560dfb2af9bdf93c53aeb2e62
 product/lib/libQTEEConnector_system.so|95b375d877eb83999f1999a381427ff04517ce4a
@@ -1338,6 +1339,8 @@ vendor/etc/init/ipacm-diag.rc|cacc1fce2e7123f6fdcaa408e66c3dfb9870f1bf
 vendor/etc/init/netmgrd.rc|711a0b87943ecd5308dc875395a9d67bd080dcef
 vendor/etc/init/port-bridge.rc|e52d61a0de5e8a3b21bfbfca929e862422645377
 vendor/etc/init/qcrild.rc|17cf4934bf443cf6469d8b3ff622eeb0e4a0aac6
+vendor/etc/init/vendor.qti.rmt_storage.rc|bc212c6353c2ded44ae4d759605fbbe55aa4fa3f
+vendor/etc/init/vendor.qti.tftp.rc|091915c28a3bc574d39189688748cc922d9e65e4
 vendor/lib/libmdmdetect.so|23a320c43120375aa4f109547f6df20a8b6a3c65
 vendor/lib/vendor.qti.hardware.radio.am@1.0.so|38ce6353b8c3068774d532af5bb23e1a6bd105ef
 vendor/lib/vendor.qti.hardware.radio.atcmdfwd@1.0.so|1883d448fba7e2cd2a69e7677c394c580708a302
@@ -1472,6 +1475,16 @@ vendor/lib64/vendor.qti.imsrtpservice@2.1.so|780288d1d8d79fa16fbbe9bce6edaa4e142
 vendor/lib64/vendor.qti.ims.callinfo@1.0.so|cce7168d30b387a7261902fe18776a2c6a93ebb7
 vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so|03051fbfa8791599598e596f379bed0f967b15fe
 
+# QSEEcom Hal
+product/lib/vendor.qti.hardware.qseecom@1.0.so
+product/lib64/vendor.qti.hardware.qseecom@1.0.so
+vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service
+vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc
+vendor/lib/vendor.qti.hardware.qseecom@1.0.so
+vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so
+vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
+vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so
+
 # Sensors
 vendor/bin/sensors.qti
 vendor/etc/sensors/sensor_def_qcomdev.conf
@@ -1524,6 +1537,7 @@ vendor/lib64/vendor.qti.hardware.sigma_miracast@1.0.so|7ca31bd88bffc97e5d8a2b8a1
 
 # Ssgtzd - from LA.UM.8.2.r1-06200-sdm660.0
 vendor/bin/ssgtzd|17c2953407b0fbb4d0c6fdc385b9c2a381e03c31
+vendor/etc/init/ssgtzd.rc|c5910445978217b7f0c651eb11afb0826528dd64
 vendor/lib/libminksocket.so|b8982fdd1c4b8f64271ed34070e6fa8756ec2f2c
 vendor/lib64/libminksocket.so|57dd1ef7283ae755d54479b82d410e7b0d3559f9
 
@@ -1540,7 +1554,7 @@ vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 -vendor/lib64/libtime_genoff.so|216cbb72e22a0ca76d766dc0b84055c5b31e0a4c
 
 # Touch - from LA.UM.8.2.r1-06200-sdm660.0
-vendor/bin/hbtp_daemon|c1db23fba4072ac29d941020a3c6fe1374a0d09f
+vendor/bin/hbtp_daemon|3119756ee591bdf2fbac99a97e4383b3f5ef4d21
 vendor/etc/hbtp/hbtpcfg.dat|5e1fa7bd844069d712dc5a5d14313fe095df4409
 vendor/etc/hbtp/hbtpcfg2.dat|e7ed701f161931e8b3cd73cf156f307f2d976a02
 vendor/etc/hbtp/hbtpcfg_adsp_800s_fhd.dat|b49f5206fe98121a3a578b88de0c096964207510
@@ -1551,13 +1565,13 @@ vendor/etc/hbtp/loader.cfg|d397cdd3c3aac51cf2f06402638744b6b31f5f60
 vendor/etc/hbtp/qtc800h.bin|7c9c4a06f059ba08e65e02a339ee6d40c4dd5516
 vendor/etc/hbtp/qtc800h_8998_660.bin|7e6e9537983d3df865107f9f70b6d8ed557d6074
 vendor/etc/hbtp/qtc800s_dsp.bin|ff7e9eac7932890747543cccc6b8570707b31605
-vendor/lib64/libfastrpc_utf_stub.so|4bdb3be85d07be078325682abd0fc54278290b92
-vendor/lib64/libhbtpclient.so|11ad897ca11e5ea1342c5c4e5bef5b84d2514083
-vendor/lib64/libhbtpdsp.so|1d205b43d47ffe320c8e7b34bb1ac82b2d7ea928
-vendor/lib64/libhbtpfrmwk.so|cf3e7400f836e4d43afda77774270cf0bfba59e5
-vendor/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so|2c2dd6f3ed51806ebb4003f43bb3b94b5a658ce0
-vendor/lib/libfastrpc_utf_stub.so|57736a2dbb5555b8e4b00aece6be028eddff818f
-vendor/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so|7f6e23fda544be007b231aa2863dbfe6a52ae3eb
+vendor/lib64/libfastrpc_utf_stub.so|891a4c987862c1b2d844379f8fb3bcdcb737e8c1
+vendor/lib64/libhbtpclient.so|154568d0831952a421dc1bcd3a9b48b5c14b93ec
+vendor/lib64/libhbtpdsp.so|9ec22c8599240732586b9e872746df3720b7f0e8
+vendor/lib64/libhbtpfrmwk.so|8a40afce0908c2e945ba4a28a033faa7b266c010
+vendor/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so|c251d014742966c9929cb63b410b745257c1cf6f
+vendor/lib/libfastrpc_utf_stub.so|793413aac79aa4cb66bcd45d80195849eed8acd7
+vendor/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so|0363d9d6b846608e138ee6d421aa137a6a7f2ceb
 
 # TUI - from LA.UM.8.2.r1-06200-sdm660.0
 product/lib/vendor.qti.hardware.tui_comm@1.0.so|19932d88afdf0351d7bfb6dee19a171d85bc1fde
