@@ -44,15 +44,15 @@ vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|a03a9a1c818595b19272ea6
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|fbf078c47a2a67be329e8390c988255dd578949c
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so|f48d221f6678ff39bdb3e667c6e1a0f399c29232
 
-# ANT+  
--lib/libantradio.so 
--lib64/libantradio.so 
-product/lib/com.qualcomm.qti.ant@1.0.so 
-product/lib64/com.qualcomm.qti.ant@1.0.so 
-vendor/lib/com.qualcomm.qti.ant@1.0.so 
-vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so 
-vendor/lib64/com.qualcomm.qti.ant@1.0.so 
-vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so
+# ANT+ - from LA.UM.8.2.r1-06200-sdm660.0
+-lib/libantradio.so|18d0a0dd4b522a3bcc59513323dd7ebaad02f47d
+-lib64/libantradio.so|876729add2528a96b538eb5163e9668d1fad0acd
+product/lib/com.qualcomm.qti.ant@1.0.so|fbbb33e875c9f64f0401e6cbcbac8e0c15766481
+product/lib64/com.qualcomm.qti.ant@1.0.so|1a7bee1627309c8eee55dab22b9f25c2302219ae
+vendor/lib/com.qualcomm.qti.ant@1.0.so|f7fb088a6fcc746b4b9f661010542b543a74b92f
+vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so|db228bd6c151bdc42b36b8980fd5aa542602d70e
+vendor/lib64/com.qualcomm.qti.ant@1.0.so|5ef111c6ecb35b94233ae694d80161e9f61b7cd6
+vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so|203528c568c1c5ce33b35dcb9ee9eb7ecb1de206
 
 # AptX
 lib64/libaptX_encoder.so
