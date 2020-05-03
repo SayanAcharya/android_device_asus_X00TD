@@ -110,11 +110,11 @@ vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
 # AV - from LA.UM.8.2.r1-06200-sdm660.0
--lib/libavenhancements.so|0074c45b9c709a18fa99312da7a671632aac3305
--lib/libqct_resampler.so|8cf58a3f30b9c998c5389ca6a444c1adddb34c7a
-lib/extractors/libmmparserextractor.so|8d15c8fce78dd970a5a6d57aad2cb3775640d793
--lib64/libavenhancements.so|f7db7794754e7035d792e13fc7635a644eeabd0f
-lib64/extractors/libmmparserextractor.so|0a3dd01d85440256a1906fa309a47991e7124474
+-lib/libavenhancements.so|c0621a78f9595ff5e7c162aac5b2d03667b656f3
+-lib/libqct_resampler.so|1faeae1fdb755bdd2ca879659b78ce63ca161210
+lib/extractors/libmmparserextractor.so|950a606d2ca08bd2ded7d4e9fb570e8ed69eccb4
+-lib64/libavenhancements.so|f049491b83114cd52c1bb0a87922fd2d6cfcc5e9
+lib64/extractors/libmmparserextractor.so|282b634e2c55e21a86a74fd64ffcc1bff6dceb27
 
 # Bluetooth - from  LA.UM.8.2.r1-06200-sdm660.0
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|5acf94f38e47c2ec43c95e132dfe7b5d71ec41c4
@@ -722,15 +722,6 @@ vendor/lib/libchromatix_ov8856_zsl_video.so
 # Camera firmware
 vendor/firmware/cpp_firmware_v1_12_0.fw
 
-# CDSP - from LA.UM.8.2.r1-06200-sdm660.0
-vendor/bin/cdsprpcd|6fb2700151a6e6dd57a5d9a388cf3a95d3e8262b
-vendor/lib/libcdsprpc.so|51edd5b43581d518d5c53855fbd87d20862c6409
-vendor/lib/libcdsp_default_listener.so|8e526abeff251bcc36a1e412ae479d705e2e397f
-vendor/lib/libsysmon_cdsp_skel.so|9c088c263500259484a3b7c611efd413464b4d34
-vendor/lib64/libcdsprpc.so|35d6590f6ddc0f306f48558ae8e71aa0b57625b7
-vendor/lib64/libcdsp_default_listener.so|886ba3921f81439cb1b4e520ad622e1089291fa7
-vendor/lib64/libsysmon_cdsp_skel.so|40d3511922c744016c419983b18f97952c23fee5
-
 # Charger - from LA.UM.8.2.r1-06200-sdm660.0
 vendor/bin/hvdcp_opti|8473b304aa2300c425e090da6688c1c124305b97
 
@@ -790,6 +781,8 @@ vendor/lib64/libwms.so|b3454324b2c81c48684c7234d0e86db7b7fef8a5
 vendor/lib64/libwqe.so|aa4d6fc75c72d71ef2262d1a96f839458fbc2a33
 vendor/lib64/libxml.so|1276d16f8fb5fee55caa866583258604944edc5e
 vendor/lib64/vendor.qti.data.factory@2.0.so|6b5b3d3e007ecbc47c7a451cd7712f8a242a12c9
+vendor/lib64/vendor.qti.data.factory@2.1.so|852dc59b489fb44a594be0a51630f3f70e55ab9f
+vendor/lib64/vendor.qti.data.slm@1.0.so|fef8424feba79e3c16c222c2bd6e6e140b904875
 vendor/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so|1fa1ea98c1f28e12a1399c0f2e34e1f1a1e0c21b
 vendor/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so|3604bfc152d5e6417e5478dc80d74110cfca934f
 vendor/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so|350cf8cbbdc14efca1ba45fe2e3047b13884c4d6
@@ -799,6 +792,7 @@ vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so|1b03b7d349d313457c417883
 vendor/lib64/vendor.qti.hardware.data.iwlan@1.0.so|3fe8a5cfd17c52933e13a85fbbd85ac2e7c40f0b
 vendor/lib64/vendor.qti.hardware.data.latency@1.0.so|b5eb170acad879f5cb1c37383bd7a868960cae77
 vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so|dfedda144d19622e3e579186033da2b7f3c80d32
+vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so|55d5add0df5bb8ef426dc308b8e7b600540d92b7
 vendor/lib64/vendor.qti.latency@2.0.so|fe4691e922ec926bd723ac79e6a11ba1d75db75a
 
 # Display - from  LA.UM.8.2.r1-06200-sdm660.0
@@ -907,7 +901,7 @@ vendor/lib64/libhdcp1prov.so|e86aec34a2e156e12b8657c586d83cbddff96c00
 vendor/lib64/libhdcp2p2prov.so|2da6e3bb38725480cf916c12e6d65d5601e2578c
 
 # DRM - from Nokia ddv_sprout(m690-user 10 QKQ1.191014.001 00WW_2_250 release-keys)
-product/priv-app/seccamservice/seccamservice.apk|6bf6a5f5110f4a3552b198a626171750425d73f3
+-product/priv-app/seccamservice/seccamservice.apk|6bf6a5f5110f4a3552b198a626171750425d73f3
 product/lib/libGPQTEEC_system.qti.so|efa7c9fd159661e244b3a28cb4002502a9ec3131
 product/lib/libGPTEE_system.qti.so|a4f5937a9474350560dfb2af9bdf93c53aeb2e62
 product/lib/libQTEEConnector_system.so|95b375d877eb83999f1999a381427ff04517ce4a
@@ -1474,6 +1468,7 @@ vendor/lib64/vendor.qti.imsrtpservice@2.1-service-Impl.so|1673fd7b807dcc317cc73c
 vendor/lib64/vendor.qti.imsrtpservice@2.1.so|780288d1d8d79fa16fbbe9bce6edaa4e1424cdb1
 vendor/lib64/vendor.qti.ims.callinfo@1.0.so|cce7168d30b387a7261902fe18776a2c6a93ebb7
 vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so|03051fbfa8791599598e596f379bed0f967b15fe
+vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so|3f72f3b305fdf562bcc1538cfad68c840f7a9d5f
 
 # QSEEcom Hal
 product/lib/vendor.qti.hardware.qseecom@1.0.so
@@ -1548,7 +1543,7 @@ vendor/bin/thermal-engine|fc23647cf4ccf8f056477ecbb29169c35627b95a
 vendor/lib64/libthermalioctl.so|e1844c66a556946b45bcb6c2e747460aa5201770
 
 # Time services - from LA.UM.8.2.r1-06200-sdm660.0
--vendor/app/TimeService/TimeService.apk|4a37afd1395758d946580af184a738e3c657b1e2
+#-vendor/app/TimeService/TimeService.apk;:timeservice_app_cert-legacy-um|4a37afd1395758d946580af184a738e3c657b1e2
 vendor/bin/time_daemon|a3efd58d57f23d0f8e7cfe8da0d7887b2f3e48e8
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 -vendor/lib64/libtime_genoff.so|216cbb72e22a0ca76d766dc0b84055c5b31e0a4c
@@ -1582,10 +1577,10 @@ vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|a917bd71ccfdbdd89e26704a230c7c148
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|1ac676dca4c81094b254b62f1b608e471b385847
 
 # Universal Bandwidth Compression (UBWC) - from LA.UM.8.2.r1-06200-sdm660.0
-vendor/lib/libstreamparser.so|71d185a8497538b9dfc29f8bdbd3571f638738f4
-vendor/lib/libUBWC.so|261c253ba9322042913994948c7bb9c53ff1f6c6
-vendor/lib64/libstreamparser.so|59c328f0c093f89779eaf6574dde312b202ac407
-vendor/lib64/libUBWC.so|40033e998b8a557b490a775ec0dda3758bcf301d
+vendor/lib/libstreamparser.so|018125829484b1fd0a48903802e62b915ab15347
+vendor/lib/libUBWC.so|96a7ebc5b61301a91851f72a69a5f0613e56d642
+vendor/lib64/libstreamparser.so|a57cd429b52a546583a27734422700a2fd1fe7f4
+vendor/lib64/libUBWC.so|b175c5fe30ceb444feab354925836f1787b4f299
 
 # Wi-Fi - from LA.UM.8.2.r1-06200-sdm660.0
 vendor/bin/cnss-daemon|3da25e53740bc6bf7464d463001eceb97bc67d9b
@@ -1641,4 +1636,3 @@ vendor/lib/libwfdmmservice.so|d25a796600eb252d133c1370f3c62adc7e9a3d03
 vendor/lib/libwfdmodulehdcpsession.so|22b64660d1c0ca946960ecde14795e4de073ccff
 vendor/lib64/libmmosal_proprietary.so|6dd922491df6c8d9f0c54f30d663ef7a574b9c9f
 vendor/lib64/libwfdhdcpcp.so|582ccf5cc79791dba3caaee7c0eaa4cc58a33e39
-
