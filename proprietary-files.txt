@@ -253,8 +253,6 @@ vendor/lib/libmmcamera_le2464c_master_eeprom.so
 vendor/lib/libmmcamera_m24c64s_eeprom.so
 vendor/lib/libmmcamera_onsemi_cat24c16_eeprom.so
 vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so
-vendor/lib/libmmcamera_ov13850.so
-vendor/lib/libmmcamera_ov13850_q13v06k.so
 vendor/lib/libmmcamera_ov13855.so
 vendor/lib/libmmcamera_ov13855_chicony_rear.so
 vendor/lib/libmmcamera_ov13855_chicony_rear_fm24c64d_eeprom.so
@@ -282,7 +280,6 @@ vendor/lib/libmmcamera_qtech_f3l8yam_eeprom.so
 vendor/lib/libmmcamera_qtech_f5670bq_eeprom.so
 vendor/lib/libmmcamera_quadracfa.so
 vendor/lib/libmmcamera_rohm_brcg064gwz_3_eeprom.so
-vendor/lib/libmmcamera_s5k5e9yu05.so
 vendor/lib/libmmcamera_stillmore_lib.so
 vendor/lib/libmmcamera_sunny_8865_eeprom.so
 vendor/lib/libmmcamera_sunny_ov13855_eeprom.so
@@ -323,8 +320,6 @@ vendor/etc/camera/hi556_holitech_13m_chromatix.xml
 vendor/etc/camera/hi556_holitech_16m_chromatix.xml
 vendor/etc/camera/hi846_kingcome_front_chromatix.xml
 vendor/etc/camera/hi846_tsp_front_chromatix.xml
-vendor/etc/camera/ov13850_chromatix.xml
-vendor/etc/camera/ov13850_q13v06k_chromatix.xml
 vendor/etc/camera/ov13855_chicony_rear_chromatix.xml
 vendor/etc/camera/ov13855_chromatix.xml
 vendor/etc/camera/ov13855_holitech_13m_chromatix.xml
@@ -334,7 +329,6 @@ vendor/etc/camera/ov16885_ofilm_16m_chromatix.xml
 vendor/etc/camera/ov8856_bear_chromatix.xml
 vendor/etc/camera/ov8856_chicony_front_chromatix.xml
 vendor/etc/camera/ov8856_chromatix.xml
-vendor/etc/camera/s5k5e9yu05_mono_chromatix.xml
 
 # Camera actuators
 vendor/lib/libactuator_ad5816g.so
@@ -553,60 +547,6 @@ vendor/lib/libchromatix_hi846_tsp_front_preview.so
 vendor/lib/libchromatix_hi846_tsp_front_snapshot.so
 vendor/lib/libchromatix_hi846_tsp_front_zsl_preview.so
 vendor/lib/libchromatix_hi846_tsp_front_zsl_video.so
-vendor/lib/libchromatix_ov13850_common.so
-vendor/lib/libchromatix_ov13850_cpp_ds_chromatix.so
-vendor/lib/libchromatix_ov13850_cpp_hfr_60.so
-vendor/lib/libchromatix_ov13850_cpp_hfr_90.so
-vendor/lib/libchromatix_ov13850_cpp_hfr_120.so
-vendor/lib/libchromatix_ov13850_cpp_liveshot.so
-vendor/lib/libchromatix_ov13850_cpp_preview.so
-vendor/lib/libchromatix_ov13850_cpp_snapshot.so
-vendor/lib/libchromatix_ov13850_cpp_us_chromatix.so
-vendor/lib/libchromatix_ov13850_cpp_video_full.so
-vendor/lib/libchromatix_ov13850_cpp_video.so
-vendor/lib/libchromatix_ov13850_default_preview_lc898212xd.so
-vendor/lib/libchromatix_ov13850_default_video_lc898212xd.so
-vendor/lib/libchromatix_ov13850_default_video.so
-vendor/lib/libchromatix_ov13850_hfr_60_lc898212xd.so
-vendor/lib/libchromatix_ov13850_hfr_60.so
-vendor/lib/libchromatix_ov13850_hfr_90_lc898212xd.so
-vendor/lib/libchromatix_ov13850_hfr_90.so
-vendor/lib/libchromatix_ov13850_hfr_120_lc898212xd.so
-vendor/lib/libchromatix_ov13850_hfr_120.so
-vendor/lib/libchromatix_ov13850_liveshot.so
-vendor/lib/libchromatix_ov13850_postproc.so
-vendor/lib/libchromatix_ov13850_preview.so
-vendor/lib/libchromatix_ov13850_q13v06k_common.so
-vendor/lib/libchromatix_ov13850_q13v06k_cpp_ds_chromatix.so
-vendor/lib/libchromatix_ov13850_q13v06k_cpp_hfr_60.so
-vendor/lib/libchromatix_ov13850_q13v06k_cpp_hfr_90.so
-vendor/lib/libchromatix_ov13850_q13v06k_cpp_hfr_120.so
-vendor/lib/libchromatix_ov13850_q13v06k_cpp_liveshot.so
-vendor/lib/libchromatix_ov13850_q13v06k_cpp_preview.so
-vendor/lib/libchromatix_ov13850_q13v06k_cpp_snapshot.so
-vendor/lib/libchromatix_ov13850_q13v06k_cpp_us_chromatix.so
-vendor/lib/libchromatix_ov13850_q13v06k_cpp_video_full.so
-vendor/lib/libchromatix_ov13850_q13v06k_cpp_video.so
-vendor/lib/libchromatix_ov13850_q13v06k_default_preview_bu64297.so
-vendor/lib/libchromatix_ov13850_q13v06k_default_video_bu64297.so
-vendor/lib/libchromatix_ov13850_q13v06k_default_video.so
-vendor/lib/libchromatix_ov13850_q13v06k_hfr_60_bu64297.so
-vendor/lib/libchromatix_ov13850_q13v06k_hfr_60.so
-vendor/lib/libchromatix_ov13850_q13v06k_hfr_90_bu64297.so
-vendor/lib/libchromatix_ov13850_q13v06k_hfr_90.so
-vendor/lib/libchromatix_ov13850_q13v06k_hfr_120_bu64297.so
-vendor/lib/libchromatix_ov13850_q13v06k_hfr_120.so
-vendor/lib/libchromatix_ov13850_q13v06k_liveshot.so
-vendor/lib/libchromatix_ov13850_q13v06k_postproc.so
-vendor/lib/libchromatix_ov13850_q13v06k_preview.so
-vendor/lib/libchromatix_ov13850_q13v06k_snapshot.so
-vendor/lib/libchromatix_ov13850_q13v06k_video_full.so
-vendor/lib/libchromatix_ov13850_q13v06k_zsl_preview_bu64297.so
-vendor/lib/libchromatix_ov13850_q13v06k_zsl_video_bu64297.so
-vendor/lib/libchromatix_ov13850_snapshot.so
-vendor/lib/libchromatix_ov13850_video_full.so
-vendor/lib/libchromatix_ov13850_zsl_preview_lc898212xd.so
-vendor/lib/libchromatix_ov13850_zsl_video_lc898212xd.so
 vendor/lib/libchromatix_ov13855_chicony_rear_common.so
 vendor/lib/libchromatix_ov13855_chicony_rear_cpp_ds_chromatix.so
 vendor/lib/libchromatix_ov13855_chicony_rear_cpp_hfr_60.so
@@ -823,25 +763,6 @@ vendor/lib/libchromatix_ov8856_preview.so
 vendor/lib/libchromatix_ov8856_snapshot.so
 vendor/lib/libchromatix_ov8856_zsl_preview.so
 vendor/lib/libchromatix_ov8856_zsl_video.so
-vendor/lib/libchromatix_s5k5e9yu05_mono_common.so
-vendor/lib/libchromatix_s5k5e9yu05_mono_cpp_hfr_60.so
-vendor/lib/libchromatix_s5k5e9yu05_mono_cpp_hfr_120.so
-vendor/lib/libchromatix_s5k5e9yu05_mono_cpp_liveshot.so
-vendor/lib/libchromatix_s5k5e9yu05_mono_cpp_preview.so
-vendor/lib/libchromatix_s5k5e9yu05_mono_cpp_snapshot.so
-vendor/lib/libchromatix_s5k5e9yu05_mono_cpp_video.so
-vendor/lib/libchromatix_s5k5e9yu05_mono_default_preview.so
-vendor/lib/libchromatix_s5k5e9yu05_mono_default_video_isp.so
-vendor/lib/libchromatix_s5k5e9yu05_mono_default_video.so
-vendor/lib/libchromatix_s5k5e9yu05_mono_hfr_60_isp.so
-vendor/lib/libchromatix_s5k5e9yu05_mono_hfr_60.so
-vendor/lib/libchromatix_s5k5e9yu05_mono_hfr_120_isp.so
-vendor/lib/libchromatix_s5k5e9yu05_mono_hfr_120.so
-vendor/lib/libchromatix_s5k5e9yu05_mono_postproc.so
-vendor/lib/libchromatix_s5k5e9yu05_mono_preview_isp.so
-vendor/lib/libchromatix_s5k5e9yu05_mono_snapshot_isp.so
-vendor/lib/libchromatix_s5k5e9yu05_mono_zsl_preview.so
-vendor/lib/libchromatix_s5k5e9yu05_mono_zsl_video.so
 
 # Camera firmware
 vendor/firmware/cpp_firmware_v1_12_0.fw
@@ -1657,7 +1578,9 @@ vendor/lib64/vendor.qti.hardware.sigma_miracast@1.0.so|7ca31bd88bffc97e5d8a2b8a1
 # Ssgtzd - from LA.UM.8.2.r1-06200-sdm660.0
 vendor/bin/ssgtzd|17c2953407b0fbb4d0c6fdc385b9c2a381e03c31
 vendor/etc/init/ssgtzd.rc|c5910445978217b7f0c651eb11afb0826528dd64
+vendor/lib/libminkdescriptor.so
 vendor/lib/libminksocket.so|b8982fdd1c4b8f64271ed34070e6fa8756ec2f2c
+vendor/lib64/libminkdescriptor.so
 vendor/lib64/libminksocket.so|57dd1ef7283ae755d54479b82d410e7b0d3559f9
 
 # Thermal - from LA.UM.8.2.r1-06200-sdm660.0
